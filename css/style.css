@@ -1,0 +1,108 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.head-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.9rem;
+}
+.head-icons div {
+  font-size: 1rem;
+  padding-right: 0.9rem;
+}
+.head-icons img {
+  border-radius: 100%;
+}
+
+.hero {
+  padding: 0;
+  background-color: #7550FE;
+  background-image: url("/assets/hero-img.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 6rem 10rem;
+}
+.hero h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.hero p {
+  color: #5C5776;
+}
+
+.heroCol {
+  width: 50%;
+}
+
+.buttons button, button:first-child button {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 0.9rem;
+  transition: transform 0.3s;
+  font-weight: 700;
+}
+.buttons button:hover, button:first-child button:hover {
+  transform: scale(0.98);
+}
+
+button:first-child {
+  background-color: #1ACB99;
+  color: #fff;
+}
+
+.sub-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  background-color: #FFEEDA;
+  padding: 0.9rem;
+}
+.sub-hero svg {
+  color: #D58135;
+  margin-right: 1rem;
+}
+.sub-hero h3 {
+  font-size: 1.3rem;
+  margin: 0;
+}
+.sub-hero p {
+  margin-bottom: 0;
+}
+
+.popular {
+  padding: 2.5rem;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.9rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  margin: 0.9rem;
+  background-color: lightgray;
+}
+.card-wrapper img {
+  border-radius: 20px 20px 0 0;
+}
+
+.card {
+  width: 20%;
+  border-radius: 20px;
+  box-shadow: 2px 2px #5C5776;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5C5776;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@import "font";
+
+@mixin btn {
+    display: inline-block;
+    border-radius: $radius;
+    padding: $size-small;
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(0.98);
+    }
+}
+  
